@@ -1,8 +1,8 @@
-# 🖼️ Image Segmentation using K-Means Clustering
+#  Image Segmentation using K-Means Clustering
 
 *A Flask-based Machine Learning Web Application*
 
-## 🚀 Project Overview
+##  Project Overview
 
 This project performs **image segmentation** using the **K-Means clustering algorithm** to divide an image into meaningful color-based regions.
 It includes a **Flask REST API** for uploading images and getting segmented outputs, along with **MLflow tracking** for experiment management.
@@ -11,7 +11,7 @@ The goal is to demonstrate a **complete ML pipeline** — from image processing 
 
 ---
 
-## 🎯 Features
+##  Features
 
 * Upload any image for segmentation
 * K-Means clustering for pixel grouping
@@ -22,7 +22,7 @@ The goal is to demonstrate a **complete ML pipeline** — from image processing 
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. The user uploads an image
 2. Image pixels are converted into numerical feature vectors
@@ -32,7 +32,7 @@ The goal is to demonstrate a **complete ML pipeline** — from image processing 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * Python
 * OpenCV
@@ -43,7 +43,7 @@ The goal is to demonstrate a **complete ML pipeline** — from image processing 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 image-segmentation-kmeans/
@@ -60,23 +60,23 @@ image-segmentation-kmeans/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 
 ```bash
 git clone https://github.com/sarika70/image-segmentation-kmeans.git
 cd image-segmentation-kmeans
 ```
 
-### 2️⃣ Create Virtual Environment
+### 2️ Create Virtual Environment
 
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
-### 3️⃣ Install Dependencies
+### 3️ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -84,7 +84,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Run the Application
+##  Run the Application
 
 ```bash
 python app.py
@@ -98,7 +98,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 📡 API Usage
+##  API Usage
 
 ### Endpoint
 
@@ -116,7 +116,7 @@ Returns the segmented image.
 
 ---
 
-## 📊 MLflow Tracking
+##  MLflow Tracking
 
 This project logs:
 
@@ -138,7 +138,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 💼 Why This Project Matters
+##  Why This Project Matters
 
 This project demonstrates:
 
@@ -150,7 +150,7 @@ This project demonstrates:
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Tikare Gnana Sarika Bai**
 AI & Machine Learning Enthusiast
